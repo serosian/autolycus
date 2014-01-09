@@ -1,4 +1,3 @@
-
 ###############################
 #   Autolycus  v1.4  2014     #
 #  Author: Drallis Dejaren    #
@@ -9,7 +8,7 @@
 # This powershell script will raise admin privlieges and download an html file contaning the targets current        #
 # internet IP address. It will also get the SAM hashes and output them into .pwdump and .txt files then save them   #
 # in the same directory that the script was run from, in a folder called 'Dump'. Befoes it closes it will scrub the #
-# windows log it's activity.                                                                                        #
+# windows log of it's activity.                                                                                        #
 #####################################################################################################################
 
 param([switch]$Elevated)
